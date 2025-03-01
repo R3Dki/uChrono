@@ -31,16 +31,16 @@ void print_reset_chrono();
 // Gets time elapsed, returns it, prints its value and executes a start_chrono call.
 u64 store_print_reset_chrono();
 
-// Converts t in s, ms, us, ns and prints it
+// Converts t in seconds, milliseconds, microseconds, nanoseconds and prints it.
 void print_time_result(u64 t);
 
-// Sleeps for a specified amount of microseconds
+// Sleeps for a specified amount of microseconds.
 void sleep_us(u64 us);
 
-// Sleeps for a specified amount of milliseconds
+// Sleeps for a specified amount of milliseconds.
 void sleep_ms(u64 ms);
 
-// Sleeps for a specified amount of seconds
+// Sleeps for a specified amount of seconds.
 void sleep(u64 s);
 
 #endif
